@@ -560,7 +560,7 @@ p {
 /* Media Query For smartphone */
 @media only screen and (max-width: 360px) {
 	.brand h1 {
-		font-size: 2.5rem;
+		font-size: 2.55rem;
 		text-transform: uppercase;
 		color: white;
 	}
@@ -572,7 +572,7 @@ p {
 		font-size:2.8rem ;
 	}
 	.cta {
-		font-size: 2.2rem;
+		font-size: 2.1rem;
 		padding: 20px 35px;
 	}
 	/* home */
@@ -584,7 +584,167 @@ p {
 	/* End contact  */
 }
 
-/* Media Query For Tablet */
+/* Media Query For smartphone 2*/
+@media only screen and (min-width: 360px) {
+	.brand h1 {
+		font-size: 2.65rem;
+		text-transform: uppercase;
+		color: white;
+	}
+		
+	h1.section-title {
+		font-size: 1.8rem;
+	}
+    #home h1:nth-child(3){
+		font-size:3rem ;
+	}
+	.cta {
+		font-size: 2.1rem;
+		padding: 20px 35px;
+	}
+	/* home */
+	#home h1 {
+		font-size: 2.2rem;
+	}
+	/* End home */
+
+	/* End contact  */
+}
+
+/* Media Query For smartphone 3*/
+@media only screen and (min-width: 412px) {
+	.brand h1 {
+		font-size: 2.75rem;
+		text-transform: uppercase;
+		color: white;
+	}
+		
+	h1.section-title {
+		font-size: 2rem;
+	}
+    #home h1:nth-child(3){
+		font-size:3.2rem ;
+	}
+	.cta {
+		font-size: 2.3rem;
+		padding: 20px 35px;
+	}
+	/* home */
+	#home h1 {
+		font-size: 2.4rem;
+	}
+	/* End home */
+
+	/* End contact  */
+}
+
+
+/* Media Query For Tablet  */
+@media only screen and (min-width: 600px) {
+	.cta {
+		font-size: 2.8rem;
+		padding: 20px 35px;
+	}
+	h1.section-title {
+		font-size: 3rem;
+	}
+
+	/* home */
+	#home h1 {
+		font-size: 2.9rem;
+	}
+	/* End home */
+
+	/* stats Section */
+	#stats .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	/* End stats Section */
+
+	/* Project */
+	#search .project-item {
+		flex-direction: row;
+	}
+	#search .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#search .project-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#search .all-search .project-info {
+		height: 100%;
+	}
+	#search .all-search .project-img {
+		height: 100%;
+	}
+	/* End Project */
+
+	/* About */
+	#about .about {
+		flex-direction: row;
+	}
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+	#about .about .col-left .about-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid rgb(30,144,255);
+	}
+	#about .col-right {
+		text-align: left;
+		padding: 30px;
+	}
+	#about .col-right h1 {
+		text-align: left;
+	}
+	/* End About */
+
+	/* contact  */
+	#contact .contact {
+		flex-direction: column;
+		padding: 50px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contact .contact-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contact .contact-item {
+		width: 30%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contact .contact-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contact .contact-item .icon img {
+		object-fit: contain;
+	}
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	/* End contact  */
+}
+/* End Media Query For Tablet */
+
+/* Media Query For Tablet 2 */
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
