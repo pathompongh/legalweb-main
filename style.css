@@ -558,7 +558,7 @@ p {
 /* End Keyframes */
 
 /* Media Query For smartphone */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 360px) {
 	.brand h1 {
 		font-size: 2.5rem;
 		text-transform: uppercase;
@@ -566,7 +566,7 @@ p {
 	}
 		
 	h1.section-title {
-		font-size: 1.75rem;
+		font-size: 1.65rem;
 	}
     #home h1:nth-child(3){
 		font-size:2.8rem ;
@@ -577,7 +577,7 @@ p {
 	}
 	/* home */
 	#home h1 {
-		font-size: 1.6rem;
+		font-size: 1.9rem;
 	}
 	/* End home */
 
@@ -585,7 +585,7 @@ p {
 }
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 35px;
@@ -596,7 +596,7 @@ p {
 
 	/* home */
 	#home h1 {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
 	}
 	/* End home */
 
